@@ -34,13 +34,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\digital-design\assets\images" />
+      <recent name="C:\xampp\htdocs\digital-design\assets\icons" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\digital-design\javascript" />
       <recent name="C:\xampp\htdocs\digital-design\scss" />
-      <recent name="C:\xampp\htdocs\digital-design\assets\icons" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\digital-design\assets\images" />
       <recent name="C:\xampp\htdocs\digital-design\assets\icons" />
     </key>
   </component>
@@ -53,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1616690029698</updated>
       <workItem from="1616690030772" duration="21227000" />
-      <workItem from="1616772123985" duration="3595000" />
+      <workItem from="1616772123985" duration="7980000" />
     </task>
     <servers />
   </component>
@@ -61,6 +61,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-7" y="0" width="1294" height="1407" key="dock-window-1" timestamp="1616792375627">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="-7" y="0" width="1294" height="1407" key="dock-window-1/2560.162.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616792375627" />
     <state x="3183" y="387" width="672" height="678" key="search.everywhere.popup" timestamp="1616690490424">
       <screen x="2560" y="162" width="1920" height="1040" />
     </state>

@@ -17,14 +17,16 @@ a {
   color: #fff;
   font-weight: 600;
 }
-.link{
+
+.link {
   text-decoration: none;
   font-family: 'Mulish', sans-serif;
   font-size: 0.875rem;
   font-weight: 800;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  &:after{
+
+  &:after {
     margin-left: 10px;
     content: url("../assets/images/arrow.png");
   }
@@ -70,7 +72,7 @@ header {
   max-height: 1000px;
   display: flex;
 
-  .gradient-background{
+  .gradient-background {
     z-index: -1;
     position: absolute;
     width: 1000px;
@@ -81,6 +83,7 @@ header {
     top: -200px;
     background-image: linear-gradient(180deg, #FF455B 0%, #FF7245 133.33%);
   }
+
   .header-image {
     flex: 1;
 
@@ -92,11 +95,12 @@ header {
       max-height: 1000px;
       background-size: cover;
       position: relative;
-      .overlay{
+
+      .overlay {
         position: absolute;
         width: 100%;
         height: 100%;
-        background: rgba(0,0 ,0, 0.2);
+        background: rgba(0, 0, 0, 0.2);
       }
 
       .right-text {
@@ -111,6 +115,7 @@ header {
         transform: rotate(-180deg);
         writing-mode: vertical-rl;
       }
+
       .right-text-shadow {
         height: 100%;
         font-family: 'Raleway', sans-serif;
@@ -125,12 +130,14 @@ header {
         transform: rotate(-180deg);
         writing-mode: vertical-rl;
         overflow: hidden;
-        div{
+
+        div {
           position: relative;
           bottom: 15rem;
         }
       }
-      .left-bottom-text{
+
+      .left-bottom-text {
         font-family: 'Raleway', sans-serif;
         font-weight: 900;
         text-transform: uppercase;
@@ -142,7 +149,8 @@ header {
         writing-mode: vertical-rl;
         transform: rotate(-180deg);
       }
-      .left-bottom-text-shadow{
+
+      .left-bottom-text-shadow {
         font-family: 'Raleway', sans-serif;
         font-weight: 900;
         text-transform: uppercase;
@@ -174,7 +182,8 @@ header {
 .our-services {
   position: relative;
   overflow: hidden;
-  .gradient-background{
+
+  .gradient-background {
     z-index: -1;
     position: absolute;
     width: 1000px;
@@ -185,6 +194,7 @@ header {
     left: -280px;
     background-image: linear-gradient(180deg, #FF455B 0%, #FF7245 133.33%);
   }
+
   padding: 16.25rem 1.875rem;
   display: flex;
   flex-wrap: wrap;
@@ -197,10 +207,12 @@ header {
     flex: 2;
     display: flex;
     gap: 1rem;
-    .card-container:nth-child(2){
+
+    .card-container:nth-child(2) {
       margin-top: -3.75em;
     }
-    .card{
+
+    .card {
       max-height: fit-content;
       max-width: 330px;
       box-sizing: border-box;
@@ -218,4 +230,67 @@ header {
 /*PORTFOLIO*/
 .portfolio {
   background-color: #fff;
+
+  .portfolio-container {
+    width: fit-content;
+    padding-top: 184px;
+
+    .header-container {
+      padding-left: 15.625rem;
+
+      .latest-cases {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h2 {
+          color: #26272C;
+        }
+
+        .link {
+          color: #26272C
+        }
+      }
+    }
+  }
+
+
+  .case-container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    img {
+      max-width: 480px;
+      max-height: 680px;
+    }
+  }
+}
+
+/*NEWSLETTER*/
+.subscribe {
+  padding: 120px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 129px;
+
+  .newsletter {
+
+  }
+
+  form {
+    input[type='email'] {
+      border: 2px solid rgba(248, 248, 252, 0.1);
+      background-color: transparent;
+      padding: 14px 0 14px 30px;
+      color: #989CAC;
+    }
+
+    input[type='submit'] {
+      border: none;
+    }
+  }
 }
