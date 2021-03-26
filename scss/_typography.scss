@@ -1,0 +1,31 @@
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Raleway', sans-serif;
+  color: $header-text-color;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+h2{
+  font-size: 2.5rem;
+}
+
+
+.sub-title{
+  color: #FF455B;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-family: 'Mulish', sans-serif;
+  display: flex;
+  align-items: center;
+  &:before{
+    margin-right: 8px;
+    content: url("../assets/images/polygon.png");
+  }
+}
+
+p{
+  font-family: 'Mulish', sans-serif;
+  color: $main-text-color;
+}

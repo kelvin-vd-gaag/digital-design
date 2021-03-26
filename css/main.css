@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap");
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+.sub-title {
+  color: #FF455B;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-family: "Mulish", sans-serif;
+  display: flex;
+  align-items: center;
+}
+.sub-title:before {
+  margin-right: 8px;
+  content: url("../assets/images/polygon.png");
+}
+
+p {
+  font-family: "Mulish", sans-serif;
+  color: #989CAC;
+}
+
+.social-bar {
+  width: 8.75rem;
+}
+
+nav {
+  z-index: 1;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1.5rem;
+  background-color: #0F1118;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .navigation {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  padding-left: 1rem;
+}
+nav .reach-out {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+nav .reach-out .contact a {
+  white-space: nowrap;
+  text-decoration: none;
+  color: #fff;
+}
+
+@media (max-width: 1000px) {
+  /*TODO: Clean this up*/
+  .header-image {
+    display: none;
+  }
+
+  .our-services {
+    flex-direction: column;
+  }
+  .our-services .service-cards {
+    flex-wrap: wrap;
+  }
+}
+body {
+  margin: 0;
+  font-size: 16px;
+  background-color: #0F1118;
+}
+
+a {
+  font-family: "Mulish", sans-serif;
+  color: #fff;
+  font-weight: 600;
+}
+
+.link {
+  text-decoration: none;
+  font-family: "Mulish", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.link:after {
+  margin-left: 10px;
+  content: url("../assets/images/arrow.png");
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-container {
+  flex: auto;
+}
+
+.button, .transparent-button, .gradient-button {
+  white-space: nowrap;
+  font-family: "Mulish", sans-serif;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 1rem;
+  line-height: 160%;
+  text-align: center;
+  width: fit-content;
+  padding: 0.5rem 2.5rem;
+  text-decoration: none;
+}
+
+.gradient-button {
+  background: linear-gradient(90deg, #FF455B 0%, #FF7245 100%);
+}
+
+.transparent-button {
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+/*HERO*/
+header {
+  /*Temporary hard coded height*/
+  height: 100vh;
+  max-height: 1000px;
+  display: flex;
+}
+header .gradient-background {
+  z-index: -1;
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  opacity: 0.07;
+  filter: blur(250px);
+  right: 0;
+  top: -200px;
+  background-image: linear-gradient(180deg, #FF455B 0%, #FF7245 133.33%);
+}
+header .header-image {
+  flex: 1;
+}
+header .header-image .hero-image {
+  width: 60%;
+  background-position: center;
+  background-image: url("../assets/images/hero-image.jpg");
+  height: 100%;
+  max-height: 1000px;
+  background-size: cover;
+  position: relative;
+}
+header .header-image .hero-image .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+header .header-image .hero-image .right-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: white;
+  font-size: 7.5rem;
+  position: absolute;
+  right: -6.5rem;
+  top: 0;
+  transform: rotate(-180deg);
+  writing-mode: vertical-rl;
+}
+header .header-image .hero-image .right-text-shadow {
+  height: 100%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14rem;
+  position: absolute;
+  right: -14.5rem;
+  opacity: 0.03;
+  top: 0;
+  transform: rotate(-180deg);
+  writing-mode: vertical-rl;
+  overflow: hidden;
+}
+header .header-image .hero-image .right-text-shadow div {
+  position: relative;
+  bottom: 15rem;
+}
+header .header-image .hero-image .left-bottom-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  position: absolute;
+  left: -29px;
+  bottom: -8px;
+  color: #0D0F16;
+  font-size: 7.5rem;
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg);
+}
+header .header-image .hero-image .left-bottom-text-shadow {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  position: absolute;
+  left: 5px;
+  bottom: -14px;
+  color: #0D0F16;
+  opacity: 0.25;
+  font-size: 14rem;
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg);
+}
+header .hero {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/*OUR SERVICES*/
+.our-services {
+  position: relative;
+  overflow: hidden;
+  padding: 16.25rem 1.875rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.our-services .gradient-background {
+  z-index: -1;
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  opacity: 0.07;
+  filter: blur(250px);
+  top: 0;
+  left: -280px;
+  background-image: linear-gradient(180deg, #FF455B 0%, #FF7245 133.33%);
+}
+.our-services .services {
+  flex: 1;
+}
+.our-services .service-cards {
+  flex: 2;
+  display: flex;
+  gap: 1rem;
+}
+.our-services .service-cards .card-container:nth-child(2) {
+  margin-top: -3.75em;
+}
+.our-services .service-cards .card {
+  max-height: fit-content;
+  max-width: 330px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border: 2px solid rgba(248, 248, 252, 0.1);
+  padding: 3.5rem;
+}
+
+/*PORTFOLIO*/
+.portfolio {
+  background-color: #fff;
+}
+
+/*# sourceMappingURL=main.css.map */

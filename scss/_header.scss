@@ -1,0 +1,49 @@
+.social-bar {
+  width: 8.75rem;
+
+}
+
+nav {
+  z-index: 1;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1.5rem;
+  background-color: #0F1118;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .navigation {
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+    padding-left: 1rem;
+
+    .social-bar {
+
+    }
+  }
+
+
+  .reach-out {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+    .contact {
+      a {
+        white-space: nowrap;
+        text-decoration: none;
+        color: #fff;
+        //&:before{
+        //  content: url("../assets/icons/mobile-phone.svg");
+        //  height: inherit;
+        //  width: inherit;
+        //}
+      }
+    }
+  }
+
+}

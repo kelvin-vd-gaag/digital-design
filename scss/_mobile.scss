@@ -1,0 +1,16 @@
+@media (max-width: 1000px) {
+  /*TODO: Clean this up*/
+  .header-image {
+    display: none;
+  }
+
+  .our-services {
+    flex-direction: column;
+
+    .service-cards {
+      flex-wrap: wrap;
+    }
+  }
+
+
+}
