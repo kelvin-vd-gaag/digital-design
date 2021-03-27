@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1515dcce-c77d-45c9-985d-8e14915f9657" name="Default Changelist" comment="" />
+    <list default="true" id="1515dcce-c77d-45c9-985d-8e14915f9657" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +24,9 @@
         <option value="SCSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1qFzGPvHO3i6qlmfh3KLJ5XXr7h" />
   <component name="ProjectViewState">
@@ -54,6 +63,7 @@
       <updated>1616690029698</updated>
       <workItem from="1616690030772" duration="21227000" />
       <workItem from="1616772123985" duration="7980000" />
+      <workItem from="1616860029485" duration="570000" />
     </task>
     <servers />
   </component>
@@ -61,10 +71,11 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-7" y="0" width="1294" height="1407" key="dock-window-1" timestamp="1616792375627">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="2553" y="162" width="974" height="1047" key="dock-window-1" timestamp="1616860305018">
+      <screen x="2560" y="162" width="1920" height="1040" />
     </state>
     <state x="-7" y="0" width="1294" height="1407" key="dock-window-1/2560.162.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616792375627" />
+    <state x="2553" y="162" width="974" height="1047" key="dock-window-1/2560.162.1920.1040/0.0.2560.1400@2560.162.1920.1040" timestamp="1616860305018" />
     <state x="3183" y="387" width="672" height="678" key="search.everywhere.popup" timestamp="1616690490424">
       <screen x="2560" y="162" width="1920" height="1040" />
     </state>

@@ -279,7 +279,33 @@ header .hero {
 
 /*PORTFOLIO*/
 .portfolio {
+  position: relative;
   background-color: #fff;
+}
+.portfolio .right-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #0D0F16;
+  font-size: 7.5rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: rotate(-180deg);
+  writing-mode: vertical-rl;
+}
+.portfolio .right-text-shadow {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #0D0F16;
+  font-size: 14rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  opacity: 0.15;
+  transform: rotate(-180deg);
+  writing-mode: vertical-rl;
 }
 .portfolio .portfolio-container {
   width: fit-content;
