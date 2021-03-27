@@ -296,6 +296,17 @@ header {
 
 /*NEWSLETTER*/
 .subscribe {
+  position: relative;
+  .gradient-background{
+    z-index: -1;
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    opacity: 0.07;
+    filter: blur(250px);
+    top: -200px;
+    background-image: linear-gradient(180deg, #FF455B 0%, #FF7245 133.33%);
+  }
   padding: 120px 0;
   display: flex;
   flex-direction: row;
@@ -308,6 +319,12 @@ header {
   }
 
   form {
+    fieldset{
+      margin: 0 0 9px 0;
+      padding: 0;
+      border: 0;
+
+    }
     input[type='email'] {
       border: 2px solid rgba(248, 248, 252, 0.1);
       background-color: transparent;
@@ -317,6 +334,18 @@ header {
 
     input[type='submit'] {
       border: none;
+    }
+    input[type='checkbox']{
+      border: 2px solid rgba(248, 248, 252, 0.1);
+      background-color: transparent;
+    }
+    label{
+      color: #989CAC;
+      font-size: 14px;
+      font-family: 'Mulish', sans-serif;
+      span{
+        color: #FF455B;
+      }
     }
   }
 }
