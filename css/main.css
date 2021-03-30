@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap");
+@import 'https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;800;900&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap';
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
   color: #fff;
@@ -19,6 +21,11 @@ h3 {
   font-size: 2rem;
 }
 
+p {
+  font-family: "Mulish", sans-serif;
+  color: #989CAC;
+}
+
 .sub-title {
   color: #FF455B;
   text-transform: uppercase;
@@ -29,12 +36,7 @@ h3 {
 }
 .sub-title:before {
   margin-right: 8px;
-  content: url("../assets/images/polygon.png");
-}
-
-p {
-  font-family: "Mulish", sans-serif;
-  color: #989CAC;
+  content: url("../../assets/images/polygon.png");
 }
 
 .social-bar {
