@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1515dcce-c77d-45c9-985d-8e14915f9657" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scss/pages/_home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/layout/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/base/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/abstracts/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_mobile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/responsive/_mobile.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,11 +42,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\digital-design\scss\responsive" />
       <recent name="C:\xampp\htdocs\digital-design\scss\layout" />
       <recent name="C:\xampp\htdocs\digital-design\scss\abstracts" />
       <recent name="C:\xampp\htdocs\digital-design\scss\base" />
       <recent name="C:\xampp\htdocs\digital-design\javascript" />
-      <recent name="C:\xampp\htdocs\digital-design\scss" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\digital-design\assets\images" />
@@ -72,7 +66,7 @@
       <workItem from="1616860029485" duration="3452000" />
       <workItem from="1616865705116" duration="1194000" />
       <workItem from="1616883903618" duration="692000" />
-      <workItem from="1617050279984" duration="6155000" />
+      <workItem from="1617050279984" duration="6281000" />
     </task>
     <servers />
   </component>
