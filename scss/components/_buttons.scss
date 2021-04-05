@@ -1,0 +1,23 @@
+.button {
+  white-space: nowrap;
+  font-family: $main-font;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 1rem;
+  line-height: 160%;
+  text-align: center;
+  width: fit-content;
+  padding: 0.5rem 2.5rem;
+  text-decoration: none;
+}
+
+.gradient-button {
+  @extend .button;
+  background: linear-gradient(90deg, #FF455B 0%, #FF7245 100%);
+}
+
+.transparent-button {
+  @extend .button;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}

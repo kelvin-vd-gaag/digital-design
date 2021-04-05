@@ -91,25 +91,6 @@ body {
   background-color: #0F1118;
 }
 
-a {
-  font-family: "Mulish", sans-serif;
-  color: #fff;
-  font-weight: 600;
-}
-
-.link {
-  text-decoration: none;
-  font-family: "Mulish", sans-serif;
-  font-size: 0.875rem;
-  font-weight: 800;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-.link:after {
-  margin-left: 10px;
-  content: url("../assets/images/arrow.png");
-}
-
 .container {
   display: flex;
   flex-direction: row;
@@ -117,28 +98,6 @@ a {
 
 .content-container {
   flex: auto;
-}
-
-.button, .transparent-button, .gradient-button {
-  white-space: nowrap;
-  font-family: "Mulish", sans-serif;
-  color: #fff;
-  text-transform: capitalize;
-  font-size: 1rem;
-  line-height: 160%;
-  text-align: center;
-  width: fit-content;
-  padding: 0.5rem 2.5rem;
-  text-decoration: none;
-}
-
-.gradient-button {
-  background: linear-gradient(90deg, #FF455B 0%, #FF7245 100%);
-}
-
-.transparent-button {
-  background-color: transparent;
-  border: 2px solid rgba(255, 255, 255, 0.5);
 }
 
 /*HERO*/
@@ -177,7 +136,7 @@ header .header-image .hero-image .overlay {
   height: 100%;
   background: rgba(0, 0, 0, 0.2);
 }
-header .header-image .hero-image .right-text {
+header .header-image .hero-image .__text-right {
   font-family: "Raleway", sans-serif;
   font-weight: 900;
   text-transform: uppercase;
@@ -387,6 +346,47 @@ header .hero {
 }
 .subscribe form label span {
   color: #FF455B;
+}
+
+.button, .transparent-button, .gradient-button {
+  white-space: nowrap;
+  font-family: "Mulish", sans-serif;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 1rem;
+  line-height: 160%;
+  text-align: center;
+  width: fit-content;
+  padding: 0.5rem 2.5rem;
+  text-decoration: none;
+}
+
+.gradient-button {
+  background: linear-gradient(90deg, #FF455B 0%, #FF7245 100%);
+}
+
+.transparent-button {
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+a {
+  font-family: "Mulish", sans-serif;
+  color: #fff;
+  font-weight: 600;
+}
+
+.link {
+  text-decoration: none;
+  font-family: "Mulish", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.link:after {
+  margin-left: 10px;
+  content: url("../assets/images/arrow.png");
 }
 
 /*# sourceMappingURL=main.css.map */

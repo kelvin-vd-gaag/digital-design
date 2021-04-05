@@ -1,0 +1,19 @@
+a {
+  font-family: $main-font;
+  color: #fff;
+  font-weight: 600;
+}
+
+.link {
+  text-decoration: none;
+  font-family: $main-font;
+  font-size: 0.875rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  &:after {
+    margin-left: 10px;
+    content: url("../assets/images/arrow.png");
+  }
+}
