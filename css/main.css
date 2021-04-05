@@ -274,7 +274,7 @@ header .hero {
 }
 .portfolio .portfolio-container {
   width: fit-content;
-  padding-top: 184px;
+  padding-top: 11.5rem;
 }
 .portfolio .portfolio-container .header-container {
   padding-left: 15.625rem;
@@ -287,7 +287,7 @@ header .hero {
 .portfolio .portfolio-container .header-container .latest-cases h2 {
   color: #26272C;
 }
-.portfolio .portfolio-container .header-container .latest-cases .link {
+.portfolio .portfolio-container .header-container .latest-cases .view-more {
   color: #26272C;
 }
 .portfolio .case-container {
@@ -348,7 +348,7 @@ header .hero {
   color: #FF455B;
 }
 
-.button, .transparent-button, .gradient-button {
+.button, .button__gradient {
   white-space: nowrap;
   font-family: "Mulish", sans-serif;
   color: #fff;
@@ -360,23 +360,16 @@ header .hero {
   padding: 0.5rem 2.5rem;
   text-decoration: none;
 }
-
-.gradient-button {
+.button__gradient {
   background: linear-gradient(90deg, #FF455B 0%, #FF7245 100%);
 }
-
-.transparent-button {
+.button__transparent {
   background-color: transparent;
   border: 2px solid rgba(255, 255, 255, 0.5);
 }
 
-a {
-  font-family: "Mulish", sans-serif;
-  color: #fff;
-  font-weight: 600;
-}
-
-.link {
+/*General links*/
+.view-more {
   text-decoration: none;
   font-family: "Mulish", sans-serif;
   font-size: 0.875rem;
@@ -384,7 +377,7 @@ a {
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
-.link:after {
+.view-more:after {
   margin-left: 10px;
   content: url("../assets/images/arrow.png");
 }

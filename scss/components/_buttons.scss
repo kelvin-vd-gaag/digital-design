@@ -9,15 +9,15 @@
   width: fit-content;
   padding: 0.5rem 2.5rem;
   text-decoration: none;
+  &__gradient {
+    @extend .button;
+    background: linear-gradient(90deg, #FF455B 0%, #FF7245 100%);
+  }
+  &__transparent {
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+  }
 }
 
-.gradient-button {
-  @extend .button;
-  background: linear-gradient(90deg, #FF455B 0%, #FF7245 100%);
-}
 
-.transparent-button {
-  @extend .button;
-  background-color: transparent;
-  border: 2px solid rgba(255, 255, 255, 0.5);
-}
+

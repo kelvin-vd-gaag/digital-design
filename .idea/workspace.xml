@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1515dcce-c77d-45c9-985d-8e14915f9657" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scss/components/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_links.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/layout/_navigation.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/layout/_header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_links.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_home.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +73,7 @@
       <workItem from="1616883903618" duration="692000" />
       <workItem from="1617050279984" duration="6353000" />
       <workItem from="1617109079251" duration="198000" />
-      <workItem from="1617580351228" duration="851000" />
+      <workItem from="1617580351228" duration="1609000" />
     </task>
     <servers />
   </component>
@@ -88,6 +85,10 @@
       <screen x="2560" y="162" width="1920" height="1040" />
     </state>
     <state x="3300" y="436" key="FileChooserDialogImpl/2560.162.1920.1040/0.0.2560.1400@2560.162.1920.1040" timestamp="1617109277409" />
+    <state x="2613" y="162" key="FileDocumentManager.FileCacheConflict" timestamp="1617581474682">
+      <screen x="2560" y="162" width="1920" height="1040" />
+    </state>
+    <state x="2613" y="162" key="FileDocumentManager.FileCacheConflict/2560.162.1920.1040/0.0.2560.1400@2560.162.1920.1040" timestamp="1617581474682" />
     <state x="2866" y="282" width="974" height="1039" key="dock-window-1" timestamp="1617061895775">
       <screen x="2560" y="162" width="1920" height="1040" />
     </state>
