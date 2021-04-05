@@ -1,10 +1,4 @@
 /*General links*/
-//a {
-//  font-family: $main-font;
-//  color: #fff;
-//  font-weight: 600;
-//}
-
 .view-more {
   text-decoration: none;
   font-family: $main-font;
@@ -12,6 +6,19 @@
   font-weight: 800;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+
+
+  &__black{
+    color: #26272C
+  }
+
+  &__white{
+    color: #fff;
+  }
+
+  &--hover{
+    /*TO BE ADDED*/
+  }
 
   &:after {
     margin-left: 10px;

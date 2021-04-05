@@ -287,9 +287,6 @@ header .hero {
 .portfolio .portfolio-container .header-container .latest-cases h2 {
   color: #26272C;
 }
-.portfolio .portfolio-container .header-container .latest-cases .view-more {
-  color: #26272C;
-}
 .portfolio .case-container {
   padding: 20px;
   display: flex;
@@ -367,6 +364,9 @@ header .hero {
   background-color: transparent;
   border: 2px solid rgba(255, 255, 255, 0.5);
 }
+.button--hover {
+  /*TO BE ADDED*/
+}
 
 /*General links*/
 .view-more {
@@ -376,6 +376,15 @@ header .hero {
   font-weight: 800;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+}
+.view-more__black {
+  color: #26272C;
+}
+.view-more__white {
+  color: #fff;
+}
+.view-more--hover {
+  /*TO BE ADDED*/
 }
 .view-more:after {
   margin-left: 10px;
