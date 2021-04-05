@@ -39,6 +39,22 @@ p {
   content: url("../../assets/images/polygon.png");
 }
 
+/*TODO: Check if there is a more proper way to name this file where all reccurring tags and elements are placed like body, main etc.*/
+body {
+  margin: 0;
+  font-size: 16px;
+  background-color: #0F1118;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-container {
+  flex: auto;
+}
+
 .social-bar {
   width: 8.75rem;
 }
@@ -85,21 +101,6 @@ nav .reach-out .contact a {
     flex-wrap: wrap;
   }
 }
-body {
-  margin: 0;
-  font-size: 16px;
-  background-color: #0F1118;
-}
-
-.container {
-  display: flex;
-  flex-direction: row;
-}
-
-.content-container {
-  flex: auto;
-}
-
 /*HERO*/
 header {
   /*Temporary hard coded height*/
@@ -330,6 +331,7 @@ header .hero {
   color: #989CAC;
 }
 .subscribe form input[type=submit] {
+  /*TODO: Fix that subscribe and input email are equal in height*/
   border: none;
 }
 .subscribe form input[type=checkbox] {

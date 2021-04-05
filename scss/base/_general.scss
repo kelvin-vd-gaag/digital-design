@@ -1,0 +1,15 @@
+/*TODO: Check if there is a more proper way to name this file where all reccurring tags and elements are placed like body, main etc.*/
+body {
+  margin: 0;
+  font-size: 16px;
+  background-color: #0F1118;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-container {
+  flex: auto;
+}
