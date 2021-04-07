@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1515dcce-c77d-45c9-985d-8e14915f9657" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +19,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="Sass File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -40,6 +40,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -70,7 +71,8 @@
       <workItem from="1616883903618" duration="692000" />
       <workItem from="1617050279984" duration="6353000" />
       <workItem from="1617109079251" duration="198000" />
-      <workItem from="1617580351228" duration="3358000" />
+      <workItem from="1617580351228" duration="3456000" />
+      <workItem from="1617737326743" duration="4517000" />
     </task>
     <servers />
   </component>
@@ -86,6 +88,10 @@
       <screen x="2560" y="162" width="1920" height="1040" />
     </state>
     <state x="2613" y="162" key="FileDocumentManager.FileCacheConflict/2560.162.1920.1040/0.0.2560.1400@2560.162.1920.1040" timestamp="1617581474682" />
+    <state x="3021" y="326" key="SettingsEditor" timestamp="1617738928132">
+      <screen x="2560" y="162" width="1920" height="1040" />
+    </state>
+    <state x="3021" y="326" key="SettingsEditor/2560.162.1920.1040/0.0.2560.1400@2560.162.1920.1040" timestamp="1617738928132" />
     <state x="2866" y="282" width="974" height="1039" key="dock-window-1" timestamp="1617061895775">
       <screen x="2560" y="162" width="1920" height="1040" />
     </state>
