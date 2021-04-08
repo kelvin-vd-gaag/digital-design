@@ -1,0 +1,60 @@
+.left-bottom-text {
+  font-family: $header-font;
+  font-weight: 900;
+  text-transform: uppercase;
+  position: absolute;
+  left: -29px;
+  bottom: -8px;
+  color: #0D0F16;
+  font-size: 7.5rem;
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg);
+}
+
+.left-bottom-text-shadow {
+  font-family: $header-font;
+  font-weight: 900;
+  text-transform: uppercase;
+  position: absolute;
+  left: 5px;
+  bottom: -14px;
+  color: #0D0F16;
+  opacity: 0.25;;
+  font-size: 14rem;
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg);
+}
+
+.right-text {
+  font-family: $header-font;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: white;
+  font-size: 7.5rem;
+  position: absolute;
+  right: -6.5rem;
+  top: 0;
+  transform: rotate(-180deg);
+  writing-mode: vertical-rl;
+}
+
+.right-text-shadow {
+  height: 100%;
+  font-family: $header-font;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14rem;
+  position: absolute;
+  right: -14.5rem;
+  opacity: 0.03;
+  top: 0;
+  transform: rotate(-180deg);
+  writing-mode: vertical-rl;
+  overflow: hidden;
+
+  div {
+    position: relative;
+    bottom: 15rem;
+  }
+}

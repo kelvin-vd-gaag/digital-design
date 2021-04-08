@@ -35,70 +35,7 @@ header {
         height: 100%;
         background: rgba(0, 0, 0, 0.2);
       }
-
-      .right-text {
-        font-family: $header-font;
-        font-weight: 900;
-        text-transform: uppercase;
-        color: white;
-        font-size: 7.5rem;
-        position: absolute;
-        right: -6.5rem;
-        top: 0;
-        transform: rotate(-180deg);
-        writing-mode: vertical-rl;
-      }
-
-      .right-text-shadow {
-        height: 100%;
-        font-family: $header-font;
-        font-weight: 900;
-        text-transform: uppercase;
-        color: white;
-        font-size: 14rem;
-        position: absolute;
-        right: -14.5rem;
-        opacity: 0.03;
-        top: 0;
-        transform: rotate(-180deg);
-        writing-mode: vertical-rl;
-        overflow: hidden;
-
-        div {
-          position: relative;
-          bottom: 15rem;
-        }
-      }
-
-      .left-bottom-text {
-        font-family: $header-font;
-        font-weight: 900;
-        text-transform: uppercase;
-        position: absolute;
-        left: -29px;
-        bottom: -8px;
-        color: #0D0F16;
-        font-size: 7.5rem;
-        writing-mode: vertical-rl;
-        transform: rotate(-180deg);
-      }
-
-      .left-bottom-text-shadow {
-        font-family: $header-font;
-        font-weight: 900;
-        text-transform: uppercase;
-        position: absolute;
-        left: 5px;
-        bottom: -14px;
-        color: #0D0F16;
-        opacity: 0.25;;
-        font-size: 14rem;
-        writing-mode: vertical-rl;
-        transform: rotate(-180deg);
-      }
-
     }
-
   }
 
   .hero {
@@ -162,7 +99,8 @@ header {
 /*PORTFOLIO*/
 .portfolio {
   position: relative;
-  .right-text{
+
+  .right-text {
     font-family: $header-font;
     font-weight: 900;
     text-transform: uppercase;
@@ -174,7 +112,8 @@ header {
     transform: rotate(-180deg);
     writing-mode: vertical-rl;
   }
-  .right-text-shadow{
+
+  .right-text-shadow {
     font-family: $header-font;
     font-weight: 900;
     text-transform: uppercase;
@@ -187,6 +126,7 @@ header {
     transform: rotate(-180deg);
     writing-mode: vertical-rl;
   }
+
   background-color: #fff;
 
   .portfolio-container {
@@ -226,7 +166,8 @@ header {
 /*NEWSLETTER*/
 .subscribe {
   position: relative;
-  .gradient-background{
+
+  .gradient-background {
     z-index: -1;
     position: absolute;
     width: 1000px;
@@ -236,6 +177,7 @@ header {
     top: -200px;
     background-image: linear-gradient(180deg, #FF455B 0%, #FF7245 133.33%);
   }
+
   padding: 120px 0;
   display: flex;
   flex-direction: row;
@@ -248,12 +190,13 @@ header {
   }
 
   form {
-    fieldset{
+    fieldset {
       margin: 0 0 9px 0;
       padding: 0;
       border: 0;
 
     }
+
     input[type='email'] {
       border: 2px solid rgba(248, 248, 252, 0.1);
       background-color: transparent;
@@ -265,17 +208,54 @@ header {
       /*TODO: Fix that subscribe and input email are equal in height*/
       border: none;
     }
-    input[type='checkbox']{
+
+    input[type='checkbox'] {
       border: 2px solid rgba(248, 248, 252, 0.1);
       background-color: transparent;
     }
-    label{
+
+    label {
       color: #989CAC;
       font-size: 14px;
       font-family: $main-font;;
-      span{
+
+      span {
         color: #FF455B;
       }
     }
+  }
+}
+
+.about-us {
+  height: 1000px;
+  display: flex;
+  align-items: center;
+
+  .header-image {
+    height: 100%;
+    flex: 1;
+  }
+
+  .hero-image {
+    flex: 1;
+    width: 80%;
+    background-position: center;
+    background-image: url("../assets/images/about-us.jpg");
+    height: 100%;
+    max-height: 1000px;
+    background-size: cover;
+    position: relative;
+
+    .overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+  }
+
+  .hero {
+    flex: 1;
   }
 }

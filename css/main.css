@@ -113,57 +113,6 @@ header {
         width: 100%;
         height: 100%;
         background: rgba(0, 0, 0, 0.2); }
-      header .header-image .hero-image .right-text {
-        font-family: "Raleway", sans-serif;
-        font-weight: 900;
-        text-transform: uppercase;
-        color: white;
-        font-size: 7.5rem;
-        position: absolute;
-        right: -6.5rem;
-        top: 0;
-        transform: rotate(-180deg);
-        writing-mode: vertical-rl; }
-      header .header-image .hero-image .right-text-shadow {
-        height: 100%;
-        font-family: "Raleway", sans-serif;
-        font-weight: 900;
-        text-transform: uppercase;
-        color: white;
-        font-size: 14rem;
-        position: absolute;
-        right: -14.5rem;
-        opacity: 0.03;
-        top: 0;
-        transform: rotate(-180deg);
-        writing-mode: vertical-rl;
-        overflow: hidden; }
-        header .header-image .hero-image .right-text-shadow div {
-          position: relative;
-          bottom: 15rem; }
-      header .header-image .hero-image .left-bottom-text {
-        font-family: "Raleway", sans-serif;
-        font-weight: 900;
-        text-transform: uppercase;
-        position: absolute;
-        left: -29px;
-        bottom: -8px;
-        color: #0D0F16;
-        font-size: 7.5rem;
-        writing-mode: vertical-rl;
-        transform: rotate(-180deg); }
-      header .header-image .hero-image .left-bottom-text-shadow {
-        font-family: "Raleway", sans-serif;
-        font-weight: 900;
-        text-transform: uppercase;
-        position: absolute;
-        left: 5px;
-        bottom: -14px;
-        color: #0D0F16;
-        opacity: 0.25;
-        font-size: 14rem;
-        writing-mode: vertical-rl;
-        transform: rotate(-180deg); }
   header .hero {
     flex: 1;
     display: flex;
@@ -294,6 +243,30 @@ header {
     .subscribe form label span {
       color: #FF455B; }
 
+.about-us {
+  height: 1000px;
+  display: flex;
+  align-items: center; }
+  .about-us .header-image {
+    height: 100%;
+    flex: 1; }
+  .about-us .hero-image {
+    flex: 1;
+    width: 80%;
+    background-position: center;
+    background-image: url("../assets/images/about-us.jpg");
+    height: 100%;
+    max-height: 1000px;
+    background-size: cover;
+    position: relative; }
+    .about-us .hero-image .overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.2); }
+  .about-us .hero {
+    flex: 1; }
+
 .button, .button__gradient {
   white-space: nowrap;
   font-family: "Mulish", sans-serif;
@@ -330,3 +303,58 @@ header {
   .view-more:after {
     margin-left: 10px;
     content: url("../assets/images/arrow.png"); }
+
+.left-bottom-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  position: absolute;
+  left: -29px;
+  bottom: -8px;
+  color: #0D0F16;
+  font-size: 7.5rem;
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg); }
+
+.left-bottom-text-shadow {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  position: absolute;
+  left: 5px;
+  bottom: -14px;
+  color: #0D0F16;
+  opacity: 0.25;
+  font-size: 14rem;
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg); }
+
+.right-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: white;
+  font-size: 7.5rem;
+  position: absolute;
+  right: -6.5rem;
+  top: 0;
+  transform: rotate(-180deg);
+  writing-mode: vertical-rl; }
+
+.right-text-shadow {
+  height: 100%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14rem;
+  position: absolute;
+  right: -14.5rem;
+  opacity: 0.03;
+  top: 0;
+  transform: rotate(-180deg);
+  writing-mode: vertical-rl;
+  overflow: hidden; }
+  .right-text-shadow div {
+    position: relative;
+    bottom: 15rem; }
