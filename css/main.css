@@ -86,7 +86,7 @@ nav {
 header {
   /*Temporary hard coded height*/
   height: 100vh;
-  max-height: 1000px;
+  max-height: 100vh;
   display: flex; }
   header .gradient-background {
     z-index: -1;
@@ -105,7 +105,7 @@ header {
       background-position: center;
       background-image: url("../assets/images/hero-image.jpg");
       height: 100%;
-      max-height: 1000px;
+      max-height: 100vh;
       background-size: cover;
       position: relative; }
       header .header-image .hero-image .overlay {
@@ -142,7 +142,8 @@ header {
   .our-services .service-cards {
     flex: 2;
     display: flex;
-    gap: 1rem; }
+    gap: 1rem;
+    justify-content: center; }
     .our-services .service-cards .card-container:nth-child(2) {
       margin-top: -3.75em; }
     .our-services .service-cards .card {
@@ -200,8 +201,8 @@ header {
     flex-wrap: wrap;
     gap: 20px; }
     .portfolio .case-container img {
-      max-width: 480px;
-      max-height: 680px; }
+      width: 480px;
+      height: 680px; }
 
 /*NEWSLETTER*/
 .subscribe {
@@ -248,7 +249,7 @@ header {
       color: #FF455B; }
 
 .about-us {
-  height: 1000px;
+  height: 100vh;
   display: flex;
   align-items: center; }
   .about-us .header-image {
@@ -260,7 +261,7 @@ header {
     background-position: center;
     background-image: url("../assets/images/about-us.jpg");
     height: 100%;
-    max-height: 1000px;
+    max-height: 1000vh;
     background-size: cover;
     position: relative; }
     .about-us .hero-image .overlay {
