@@ -206,6 +206,7 @@ header {
 /*NEWSLETTER*/
 .subscribe {
   position: relative;
+  flex-wrap: wrap;
   padding: 120px 0;
   display: flex;
   flex-direction: row;
@@ -225,13 +226,12 @@ header {
     margin: 0 0 9px 0;
     padding: 0;
     border: 0;
-    display: flex;
-    gap: 1em; }
+    display: flex; }
   .subscribe form input[type='email'] {
     border: 2px solid rgba(248, 248, 252, 0.1);
     background-color: transparent;
     padding: 14px 0 14px 30px;
-    color: #989CAC; }
+    margin-right: 1em; }
   .subscribe form input[type='submit'] {
     height: inherit;
     border: 2px solid;
@@ -270,6 +270,31 @@ header {
       background: rgba(0, 0, 0, 0.2); }
   .about-us .hero {
     flex: 1; }
+
+.blog-showcase {
+  height: 100vh;
+  max-width: 1150px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .blog-showcase .header-container .latest-cases {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .blog-showcase .header-container .latest-cases h2 {
+      color: #26272C; }
+  .blog-showcase .blog-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em; }
+    .blog-showcase .blog-container .blog {
+      max-width: 555px; }
+      .blog-showcase .blog-container .blog .meta-info {
+        margin-top: 2.5em;
+        display: flex;
+        color: #989CAC; }
 
 .button, .button__gradient {
   white-space: nowrap;
