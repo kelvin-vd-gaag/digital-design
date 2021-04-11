@@ -194,7 +194,8 @@ header {
       margin: 0 0 9px 0;
       padding: 0;
       border: 0;
-
+      display: flex;
+      gap: 1em;
     }
 
     input[type='email'] {
@@ -205,8 +206,10 @@ header {
     }
 
     input[type='submit'] {
-      /*TODO: Fix that subscribe and input email are equal in height*/
-      border: none;
+      height: inherit;
+      border: 2px solid;
+      border-image-slice: 1;
+      border-image-source: linear-gradient(90deg, #FF455B 0%, #FF7245 100%);
     }
 
     input[type='checkbox'] {

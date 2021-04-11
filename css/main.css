@@ -224,15 +224,19 @@ header {
   .subscribe form fieldset {
     margin: 0 0 9px 0;
     padding: 0;
-    border: 0; }
+    border: 0;
+    display: flex;
+    gap: 1em; }
   .subscribe form input[type='email'] {
     border: 2px solid rgba(248, 248, 252, 0.1);
     background-color: transparent;
     padding: 14px 0 14px 30px;
     color: #989CAC; }
   .subscribe form input[type='submit'] {
-    /*TODO: Fix that subscribe and input email are equal in height*/
-    border: none; }
+    height: inherit;
+    border: 2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg, #FF455B 0%, #FF7245 100%); }
   .subscribe form input[type='checkbox'] {
     border: 2px solid rgba(248, 248, 252, 0.1);
     background-color: transparent; }
