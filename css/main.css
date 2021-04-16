@@ -45,16 +45,13 @@ body {
 .content-container {
   flex: auto; }
 
-.social-bar {
-  width: 8.75rem; }
-
 nav {
   z-index: 1;
   position: sticky;
   top: 0;
   width: 100%;
   box-sizing: border-box;
-  padding: 1.5rem;
+  padding: 1.5rem 0;
   background-color: #0F1118;
   display: flex;
   justify-content: space-between;
@@ -62,12 +59,18 @@ nav {
   nav .navigation {
     display: flex;
     align-items: center;
-    gap: 6rem;
-    padding-left: 1rem; }
+    gap: 3.5rem; }
+  nav .hamburger-menu {
+    width: 119px;
+    display: flex;
+    justify-content: center; }
+    nav .hamburger-menu:hover {
+      cursor: pointer; }
   nav .reach-out {
     display: flex;
     gap: 1rem;
-    align-items: center; }
+    align-items: center;
+    padding-right: 3.75rem; }
     nav .reach-out .contact a {
       white-space: nowrap;
       text-decoration: none;
@@ -121,6 +124,24 @@ header {
     align-items: flex-start;
     justify-content: center; }
 
+.social-bar {
+  display: flex;
+  align-items: flex-end;
+  position: sticky;
+  top: 0;
+  height: 100vh; }
+  .social-bar .social-links {
+    padding: 3rem; }
+    .social-bar .social-links ul {
+      padding-left: 0; }
+    .social-bar .social-links li {
+      list-style-type: none; }
+    .social-bar .social-links a {
+      font-family: "Mulish", sans-serif;
+      color: #989CAC;
+      font-weight: bold;
+      text-decoration: none; }
+
 /*OUR SERVICES*/
 .our-services {
   position: relative;
@@ -128,6 +149,11 @@ header {
   padding: 16.25rem 1.875rem;
   display: flex;
   flex-wrap: wrap; }
+  .our-services .service-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
   .our-services .gradient-background {
     z-index: -1;
     position: absolute;
@@ -138,10 +164,8 @@ header {
     top: 0;
     left: -280px;
     background-image: linear-gradient(180deg, #FF455B 0%, #FF7245 133.33%); }
-  .our-services .services {
-    flex: 1; }
   .our-services .service-cards {
-    flex: 2;
+    flex: 1;
     display: flex;
     gap: 1rem;
     justify-content: center; }
@@ -335,6 +359,7 @@ header {
     margin-left: 10px;
     content: url("../assets/images/arrow.png"); }
 
+/*TODO: Optimize this*/
 .left-bottom-text {
   font-family: "Raleway", sans-serif;
   font-weight: 900;
@@ -345,7 +370,8 @@ header {
   color: #0D0F16;
   font-size: 7.5rem;
   writing-mode: vertical-rl;
-  transform: rotate(-180deg); }
+  transform: rotate(-180deg);
+  user-select: none; }
 
 .left-bottom-text-shadow {
   font-family: "Raleway", sans-serif;
@@ -358,7 +384,8 @@ header {
   opacity: 0.25;
   font-size: 14rem;
   writing-mode: vertical-rl;
-  transform: rotate(-180deg); }
+  transform: rotate(-180deg);
+  user-select: none; }
 
 .right-text {
   font-family: "Raleway", sans-serif;
@@ -370,7 +397,8 @@ header {
   right: -6.5rem;
   top: 0;
   transform: rotate(-180deg);
-  writing-mode: vertical-rl; }
+  writing-mode: vertical-rl;
+  user-select: none; }
 
 .right-text-shadow {
   height: 100%;
@@ -385,7 +413,8 @@ header {
   top: 0;
   transform: rotate(-180deg);
   writing-mode: vertical-rl;
-  overflow: hidden; }
+  overflow: hidden;
+  user-select: none; }
   .right-text-shadow div {
     position: relative;
     bottom: 15rem; }

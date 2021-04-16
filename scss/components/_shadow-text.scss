@@ -1,3 +1,5 @@
+/*TODO: Optimize this*/
+
 .left-bottom-text {
   font-family: $header-font;
   font-weight: 900;
@@ -9,6 +11,7 @@
   font-size: 7.5rem;
   writing-mode: vertical-rl;
   transform: rotate(-180deg);
+  user-select: none;
 }
 
 .left-bottom-text-shadow {
@@ -23,6 +26,7 @@
   font-size: 14rem;
   writing-mode: vertical-rl;
   transform: rotate(-180deg);
+  user-select: none;
 }
 
 .right-text {
@@ -36,6 +40,7 @@
   top: 0;
   transform: rotate(-180deg);
   writing-mode: vertical-rl;
+  user-select: none;
 }
 
 .right-text-shadow {
@@ -52,6 +57,7 @@
   transform: rotate(-180deg);
   writing-mode: vertical-rl;
   overflow: hidden;
+  user-select: none;
 
   div {
     position: relative;
