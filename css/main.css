@@ -46,7 +46,7 @@ body {
   flex: auto; }
 
 nav {
-  z-index: 1;
+  z-index: 6;
   position: sticky;
   top: 0;
   width: 100%;
@@ -63,7 +63,8 @@ nav {
   nav .hamburger-menu {
     width: 119px;
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    z-index: 10; }
     nav .hamburger-menu:hover {
       cursor: pointer; }
   nav .reach-out {
@@ -150,7 +151,7 @@ header {
   display: flex;
   flex-wrap: wrap; }
   .our-services .service-container {
-    flex: 1;
+    flex: 2;
     display: flex;
     align-items: center;
     justify-content: center; }
@@ -165,7 +166,7 @@ header {
     left: -280px;
     background-image: linear-gradient(180deg, #FF455B 0%, #FF7245 133.33%); }
   .our-services .service-cards {
-    flex: 1;
+    flex: 4;
     display: flex;
     gap: 1rem;
     justify-content: center; }
@@ -300,6 +301,7 @@ header {
 .blog-showcase {
   height: 100vh;
   max-width: 1150px;
+  width: fit-content;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -418,3 +420,34 @@ header {
   .right-text-shadow div {
     position: relative;
     bottom: 15rem; }
+
+.menu {
+  display: flex;
+  align-items: center;
+  background-color: #0F1118;
+  height: 100vh;
+  position: fixed;
+  width: 50%;
+  left: -50%;
+  top: 0;
+  z-index: 5;
+  animation: slide-out 0.5s backwards; }
+  .menu ul li {
+    list-style-type: none; }
+  .menu ul a {
+    text-decoration: none;
+    color: #989CAC;
+    font-family: "Mulish", sans-serif;
+    font-size: 2.25rem;
+    line-height: 1.6rem; }
+
+.slide-in {
+  animation: slide-in 0.5s forwards; }
+
+@keyframes slide-in {
+  100% {
+    left: 0; } }
+
+@keyframes slide-out {
+  100% {
+    left: -50%; } }

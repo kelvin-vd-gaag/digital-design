@@ -1,0 +1,42 @@
+.menu {
+  display: flex;
+  align-items: center;
+  background-color: #0F1118;
+  height: 100vh;
+  position: fixed;
+  width: 50%;
+  left: -50%;
+  top: 0;
+  z-index: 5;
+  animation: slide-out 0.5s backwards;
+  ul {
+    li{
+      list-style-type: none;
+    }
+    a{
+      text-decoration: none;
+      color: $main-text-color;
+      font-family: $main-font;
+      font-size: 2.25rem;
+      line-height: 1.6rem;
+
+    }
+  }
+}
+
+.slide-in{
+  animation: slide-in 0.5s forwards;
+}
+
+.slide-out{
+
+}
+
+@keyframes slide-in {
+  100% { left: 0; }
+}
+
+
+@keyframes slide-out {
+  100% { left: -50%; }
+}

@@ -1,5 +1,5 @@
 nav {
-  z-index: 1;
+  z-index: 6;
   position: sticky;
   top: 0;
   width: 100%;
@@ -15,11 +15,13 @@ nav {
     align-items: center;
     gap: 3.5rem;
   }
-  .hamburger-menu{
+
+  .hamburger-menu {
     width: 119px;
     display: flex;
     justify-content: center;
-    &:hover{
+    z-index: 10;
+    &:hover {
       cursor: pointer;
     }
   }
@@ -30,6 +32,7 @@ nav {
     gap: 1rem;
     align-items: center;
     padding-right: 3.75rem;
+
     .contact {
       a {
         white-space: nowrap;

@@ -80,7 +80,7 @@ header {
   position: relative;
   overflow: hidden;
   .service-container{
-    flex: 1;
+    flex: 2;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,7 +103,7 @@ header {
   flex-wrap: wrap;
 
   .service-cards {
-    flex: 1;
+    flex: 4;
     display: flex;
     gap: 1rem;
     justify-content: center;
@@ -296,6 +296,7 @@ header {
 .blog-showcase {
   height: 100vh;
   max-width: 1150px;
+  width: fit-content;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
